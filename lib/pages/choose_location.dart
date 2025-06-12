@@ -162,8 +162,11 @@ class _ChooseLocationState extends State<ChooseLocation> {
                             alignment: Alignment.topLeft,
                             child: Material(
                               borderRadius: BorderRadius.circular(10.0),
-                              child: SizedBox(
-                                width: MediaQuery.of(context).size.width - 32,
+                              child: ConstrainedBox(
+                                constraints: BoxConstraints(
+                                  maxHeight: options.length * 56.0,
+                                  maxWidth: MediaQuery.of(context).size.width - 52,
+                                ),
                                 child: ListView.builder(
                                   padding: EdgeInsets.all(8.0),
                                   itemCount: options.length,
