@@ -1,16 +1,40 @@
-# a_world_time_app
+# 🕐 World Time App
 
-A new Flutter project.
+My First Flutter project. A simple mobile app that allow user to view current time in cities around the world.
 
-## Getting Started
+## 📖 What I Have Learnt
+1. Layouting potrait mobile
+2. Routing / Navigation
+3. API Consume
+4. Asynchronous
+5. Widget lifecycle
+6. File hirearchy & package manager
+7. Shared peferences
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+1. Flutter - UI toolkit and framework for mobile app
+2. Dart - Programmming language used with flutter
+3. World Time API - https://timeapi.io/swagger/index.html
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
+- Flutter SDK: [here](https://flutter.dev/docs/get-started/install)
+- Visual Studio Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
+1. Clone repo:
+   ```
+   $ git clone https://github.com/hfzdzakii/Personal-WorldTimeApp.git
+   $ cd Personal-WorldTimeApp
+   ```
+2. Get dependencies:
+   ```
+   $ flutter pub get
+   ```
+3. Run the app:
+   ```
+   $ flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Credits
+- Data provided by [TimeAPI](https://timeapi.io)
+- Built with curiosity using FLutter
